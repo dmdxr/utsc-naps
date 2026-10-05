@@ -313,30 +313,19 @@ p  { margin: 0 0 1rem; }
   background: var(--surface-2); border: 1px solid var(--border); color: var(--muted);
 }
 
-/* ---------- RSVP link on event cards ---------- */
+/* ---------- RSVP pill ---------- */
 .rsvp-tab {
-  display: inline-flex; align-items: center; gap: 8px;
-  margin-top: 16px; padding: 8px 16px;
-  font-family: var(--mono); font-size: .76rem; font-weight: 600;
+  display: inline-block; vertical-align: middle;
+  margin-left: 10px; padding: 3px 12px;
+  font-family: var(--mono); font-size: .7rem; font-weight: 600;
   letter-spacing: .1em; text-transform: uppercase;
   color: var(--accent-2);
-  background: color-mix(in srgb, var(--accent-2) 10%, var(--surface));
-  border: 1px solid color-mix(in srgb, var(--accent-2) 40%, var(--border));
-  border-radius: 10px;
+  background: var(--surface-2);
+  border: 1px solid var(--accent-2);
+  border-radius: 999px;
   text-decoration: none;
-  transition: background .15s ease, border-color .15s ease, transform .14s ease, box-shadow .14s ease;
 }
-.rsvp-tab:hover {
-  text-decoration: none;
-  background: color-mix(in srgb, var(--accent-2) 18%, var(--surface));
-  border-color: var(--accent-2);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px color-mix(in srgb, var(--accent-2) 22%, transparent);
-}
-.rsvp-tab:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-}
+.rsvp-tab:hover { text-decoration: none; background: var(--accent-2); color: var(--accent-ink); }
 
 /* ---------- People: nucleus + orbit ---------- */
 .person { text-align: center; }
