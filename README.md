@@ -1,6 +1,6 @@
 # Newton's Apples Physics Society
 
-The official website of **Newton's Apples Physics Society (NAPS)**, a student-run physics society at the University of Toronto Scarborough (UTSC). We're open to every student, in every program.
+The official website of **Newton's Apples Physics Society (NAPS)**, a student-run physics society at the University of Toronto Scarborough. We're open to every student, in every program, and on every campus!
 
 The site covers our upcoming and past events, the annual undergraduate physics conference, the team, and how to join.
 
@@ -50,7 +50,7 @@ Then visit <http://localhost:8000>.
 
 ## Making common updates
 
-### Add an event
+### Adding an event
 
 In `events.html`, copy an existing card into the **Upcoming** section:
 
@@ -123,4 +123,4 @@ Club name, logo, and photos remain the property of Newton's Apples Physics Socie
 
 ---
 
-<sub>Built by students, hosted on GitHub Pages.</sub>
+<sub>Built by Debmita Majumdar, hosted on GitHub Pages.</sub>
