@@ -313,19 +313,23 @@ p  { margin: 0 0 1rem; }
   background: var(--surface-2); border: 1px solid var(--border); color: var(--muted);
 }
 
-/* ---------- RSVP pill ---------- */
+/* ---------- RSVP button (styled like .tag, in teal) ---------- */
 .rsvp-tab {
   display: inline-block; vertical-align: middle;
-  margin-left: 10px; padding: 3px 12px;
-  font-family: var(--mono); font-size: .7rem; font-weight: 600;
-  letter-spacing: .1em; text-transform: uppercase;
+  margin-left: 10px; padding: 4px 10px;
+  font-family: var(--mono); font-size: .71rem; font-weight: 500;
+  letter-spacing: .05em;
   color: var(--accent-2);
   background: var(--surface-2);
   border: 1px solid var(--accent-2);
-  border-radius: 999px;
+  border-radius: 5px;
   text-decoration: none;
 }
-.rsvp-tab:hover { text-decoration: none; background: var(--accent-2); color: var(--accent-ink); }
+.rsvp-tab:hover {
+  text-decoration: none;
+  background: var(--accent-2);
+  color: var(--accent-ink);
+}
 
 /* ---------- People: nucleus + orbit ---------- */
 .person { text-align: center; }
